@@ -41,10 +41,13 @@ namespace DataAccess.DAO
 
             var user = new User
             {
-                FullName = "User" + random.Next(1000), 
-                Address = "Address" + random.Next(1000), 
-                PhoneNumber = "PhoneNumber" + random.Next(1000), 
-                Status = "Active" 
+                FullName = "User" + random.Next(1000),
+                Address = "Address" + random.Next(1000),
+                PhoneNumber = "PhoneNumber" + random.Next(1000),
+                Status = "Active",
+                CCCD = "CCCD" + random.Next(1000),
+                Email = "Email@gmail.com",
+                Unit = "Unit"+random.Next(1000) 
             };
 
             _context.Users.Add(user);
@@ -57,7 +60,7 @@ namespace DataAccess.DAO
                 UserName = accountDto.UserName,
                 PassWord = accountDto.PassWord,
                 IsVerify = string.IsNullOrEmpty(accountDto.IsVerify) ? "True" : accountDto.IsVerify,
-                Role = string.IsNullOrEmpty(accountDto.Role) ? "1" : accountDto.Role,
+                Role = string.IsNullOrEmpty(accountDto.Role) ? "dv" : accountDto.Role,
                 Status = string.IsNullOrEmpty(accountDto.Status) ? "Active" : accountDto.Status
             };
 

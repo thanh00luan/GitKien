@@ -16,9 +16,9 @@ namespace DataAccess.Repository
             _userExamDAO = userExamDAO;
         }
 
-        public async Task<List<UserExam>> GetAllUserExamsAsync()
+        public async Task<List<UserExamDto>> GetAllUserExamsAsync(int limit, int offset)
         {
-            return await _userExamDAO.GetAllUserExamsAsync();
+            return await _userExamDAO.GetAllUserExamsAsync(limit, offset);
         }
         public Task<List<ExamUserDTO>> GetAllUserExamsByIdAsync(int userId)
         {

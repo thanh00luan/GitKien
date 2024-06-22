@@ -8,7 +8,7 @@ namespace Repository.IRepository
 {
     public interface UserExamIRepository
     {
-        Task<List<UserExam>> GetAllUserExamsAsync();
+        Task<List<UserExamDto>> GetAllUserExamsAsync(int limit, int offset);
         Task<UserExam> GetUserExamByIdAsync(int id);
         Task<UserExam> AddUserExamAsync(UserExam userExam);
         Task<UserExam> UpdateUserExamAsync(UserExam userExam);

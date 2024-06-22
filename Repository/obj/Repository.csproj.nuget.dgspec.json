@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\Repository\\Repository.csproj": {}
+    "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Thanh Luan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thanh Luan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,25 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Thanh Luan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thanh Luan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,15 +102,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -174,25 +164,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\Repository\\Repository.csproj": {
+    "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Thanh Luan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thanh Luan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,18 +186,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -231,6 +216,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -248,6 +237,14 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -266,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

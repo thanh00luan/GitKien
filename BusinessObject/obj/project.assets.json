@@ -6231,24 +6231,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Thanh Luan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\BusinessObject.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\Working\\FreeLancer\\ExamSystem-Kien\\TracNghiemTuDong\\BusinessObject\\obj\\",
+      "projectPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\BusinessObject.csproj",
+      "packagesPath": "C:\\Users\\Thanh Luan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thanh Luan\\Desktop\\GitClone\\Kien\\GitKien\\BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Thanh Luan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6256,7 +6251,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6315,7 +6309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

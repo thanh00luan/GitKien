@@ -16,10 +16,41 @@ namespace DataAccess.DAO
             _context = context;
         }
 
-        public async Task<List<UserExam>> GetAllUserExamsAsync()
+        public async Task<List<UserExamDto>> GetAllUserExamsAsync(int limit, int offset)
         {
-            return await _context.UserExams.ToListAsync();
+            var userExams = await _context.UserExams
+                                          .OrderByDescending(ue => ue.Score) // Order by Score descending
+                                          .Skip(offset)                     // Skip the specified number of elements
+                                          .Take(limit)                      // Take the specified number of elements
+                                          .ToListAsync();                   // Convert to a list asynchronously
+
+            var userExamDtos = new List<UserExamDto>();
+
+            foreach (var ue in userExams)
+            {
+                var user = await _context.Users
+                                         .Where(u => u.UserId == ue.UserId)
+                                         .FirstOrDefaultAsync();
+
+                var exam = await _context.Exams
+                                         .Where(e => e.ExamId == ue.ExamId)
+                                         .FirstOrDefaultAsync();
+
+                userExamDtos.Add(new UserExamDto
+                {
+                    UserExamId = ue.UserExamId,
+                    FullName = user?.FullName, // Use null-conditional operator to handle possible null values
+                    Title = exam?.Title,       // Use null-conditional operator to handle possible null values
+                    StartTime = ue.StartTime,
+                    EndTime = ue.EndTime,
+                    Score = ue.Score,
+                    Status = ue.Status
+                });
+            }
+
+            return userExamDtos;
         }
+
         public async Task<List<ExamUserDTO>> GetAllUserExamsByIdAsync(int userId)
         {
             var userExams = await _context.UserExams

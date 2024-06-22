@@ -20,9 +20,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<UserExam>>> GetAllUserExamsAsync()
+        public async Task<ActionResult<List<UserExamDto>>> GetAllUserExamsAsync(int limit, int offset)
         {
-            var userExams = await _userExamRepository.GetAllUserExamsAsync();
+            var userExams = await _userExamRepository.GetAllUserExamsAsync(limit, offset);
             return Ok(userExams);
         }
         [HttpGet("{userId}")]

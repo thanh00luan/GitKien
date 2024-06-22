@@ -24,6 +24,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
 using System.Text;
+using BusinessObject.DTO.MailDTO;
 
 namespace API
 {
@@ -40,7 +41,7 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
-
+            services.Configure<SmtpSettings>(Configuration.GetSection("SmtpSettings"));
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAllOrigins",
@@ -65,6 +66,7 @@ namespace API
             services.AddTransient<UserAnswerDAO>();
             services.AddTransient<UserExamIRepository, UserExamRepository>();
             services.AddTransient<ExamUserDAO>();
+            services.AddTransient<ISendMailService, SendMailService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

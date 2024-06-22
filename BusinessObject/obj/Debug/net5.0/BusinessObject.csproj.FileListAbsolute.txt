@@ -28,3 +28,35 @@ C:\Users\ASUS\Desktop\Working\FreeLancer\ExamSystem-Kien\TracNghiemTuDong\Busine
 C:\Users\ASUS\Desktop\Working\FreeLancer\ExamSystem-Kien\TracNghiemTuDong\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
 C:\Users\ASUS\Desktop\Working\FreeLancer\ExamSystem-Kien\TracNghiemTuDong\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Working\FreeLancer\ExamSystem-Kien\TracNghiemTuDong\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.sourcelink.json
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Thanh Luan\Desktop\GitClone\GitKien\KienAPI\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.sourcelink.json
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Thanh Luan\Desktop\GitClone\Kien\GitKien\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll

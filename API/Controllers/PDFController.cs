@@ -289,6 +289,9 @@ using Microsoft.EntityFrameworkCore;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using System.Xml.Linq;
+using Repository.IRepository;
+using System.Collections.Generic;
+using System.Net.Mail;
 
 namespace API.Controllers
 {
@@ -297,27 +300,34 @@ namespace API.Controllers
     public class PdfController : ControllerBase
     {
         private readonly DBContext _context;
+        private readonly ISendMailService _sendMailService;
         public UserExam user { get; set; }
         public Exam e { get; set; }
         public User u { get; set; }
 
-        public PdfController(DBContext context)
+        public PdfController(DBContext context, ISendMailService sendMailService)
         {
             _context = context;
+            _sendMailService = sendMailService;
         }
 
         [HttpGet("generate")]
         public async Task<IActionResult> GeneratePdf(int userExamId)
         {
-            user = _context.UserExams
+            var userExam = _context.UserExams
                     .Where(d => d.UserExamId == userExamId)
                     .SingleOrDefault();
-            if (user != null)
+
+            if (userExam != null)
             {
-                u = await _context.Users
-                    .Where(d => d.UserId == user.UserId)
+                var user = await _context.Users
+                    .Where(d => d.UserId == userExam.UserId)
                     .SingleOrDefaultAsync();
-                e = await _context.Exams.Where(e => e.ExamId == user.ExamId).FirstOrDefaultAsync();
+
+                var exam = await _context.Exams
+                    .Where(e => e.ExamId == userExam.ExamId)
+                    .FirstOrDefaultAsync();
+
                 string fileName = "Certificate.pdf";
 
                 // Create a new PDF document
@@ -336,16 +346,16 @@ namespace API.Controllers
                 gfx.DrawString("Chứng nhận rằng", font, XBrushes.Black,
                     new XRect(0, 40, page.Width, page.Height), XStringFormats.TopCenter);
 
-                gfx.DrawString($"Chứng Chỉ {e.Title}", font, XBrushes.Black,
+                gfx.DrawString($"Chứng Chỉ {exam.Title}", font, XBrushes.Black,
                     new XRect(0, 80, page.Width, page.Height), XStringFormats.TopCenter);
 
-                gfx.DrawString($"Được Trao Cho {u.FullName}", font, XBrushes.Black,
+                gfx.DrawString($"Được Trao Cho {user.FullName}", font, XBrushes.Black,
                     new XRect(0, 120, page.Width, page.Height), XStringFormats.TopCenter);
 
                 gfx.DrawString("Vì đã hoàn thành xuất sắc chương trình chuyên sâu", font, XBrushes.Black,
                     new XRect(0, 160, page.Width, page.Height), XStringFormats.TopCenter);
 
-                gfx.DrawString(e.Description, font, XBrushes.Black,
+                gfx.DrawString(exam.Description, font, XBrushes.Black,
                     new XRect(0, 200, page.Width, page.Height), XStringFormats.TopCenter);
 
                 gfx.DrawString("Được cấp tại Cần Thơ, Việt Nam", font, XBrushes.Black,
@@ -358,18 +368,25 @@ namespace API.Controllers
                     new XRect(400, 550, page.Width, page.Height), XStringFormats.TopLeft);
 
                 // Save the document to a memory stream
-                MemoryStream stream = new MemoryStream();
-                document.Save(stream, false);
-                byte[] pdfBytes = stream.ToArray();
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    document.Save(stream, false);
+                    byte[] pdfBytes = stream.ToArray();
 
-                // Return the PDF as a file
-                return File(pdfBytes, "application/pdf", fileName);
+                    var email = user.Email;
+                    var subject = "Thông tin chứng chỉ của bạn";
+                    var body = $"Xin chào {user.FullName},\n\nDưới đây là chứng chỉ của bạn.\n\nTên chứng chỉ: {exam.Title}\n\nXin cảm ơn.";
+                    await _sendMailService.SendEmailWithAttachmentAsync(email, subject, body, pdfBytes, fileName, "application/pdf");
+
+                    return Ok("PDF đã được gửi qua email.");
+                }
             }
             else
             {
                 return BadRequest();
             }
         }
+
     }
 }
 
